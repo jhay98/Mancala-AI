@@ -30,42 +30,6 @@ class Board {
         initCups();
     }
 
-    // //test
-    // public Board(int numberOfCups, int initStones) {
-    //         // Init vars
-    //         this.numberOfCups = 6;
-    //         this.initStones = 4;
-    //         this.playerTurn = PLAYER1;
-    //         this.gameOver = false;
-    
-    //         // Init cups
-    //         player1FirstCup = new Cup(3, PLAYER1, 0);
-    //         player2FirstCup = new Cup(3, PLAYER2, 0);
-    //         player1Mancala = new Cup(10, PLAYER1, numberOfCups);
-    //         player2Mancala = new Cup(5, PLAYER2, numberOfCups);
-    //         initCups();
-
-    //         int[] p1stones = {2 ,  3 ,  8 ,  0 ,  1 };
-    //         int[] p2stones = {1, 11, 0, 1, 0};
-    //         Cup currentCup = player1FirstCup;
-    //         for (int i = 0; i < numberOfCups - 1; i++) {
-    //             currentCup.setNextCup(new Cup(p1stones[i], PLAYER1, i + 1));
-    //             currentCup = currentCup.getNextCup();
-    //         }
-    //         currentCup.setNextCup(player1Mancala);
-    //         currentCup = player1Mancala;
-    //         currentCup.setNextCup(player2FirstCup);
-    //         currentCup = player2FirstCup;
-            
-    //         for (int i = 0; i < numberOfCups - 1; i++) {
-    //             currentCup.setNextCup(new Cup(p2stones[i], PLAYER2, i + 1));
-    //             currentCup = currentCup.getNextCup();
-    //         }
-    //         currentCup.setNextCup(player2Mancala);
-    //         currentCup = player2Mancala;
-    //         currentCup.setNextCup(player1FirstCup);
-    //     }
-
     /*
      * Create a copy
      */
