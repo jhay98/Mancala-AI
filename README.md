@@ -8,7 +8,7 @@ After compile, run with:\
 `arg1`/`arg2` can be:\
 0 : Human player\
 1 : Random bot\
-2 : AI bot\
+2 : AI bot
 
 e.g. for a human to play against a random bot, run:\
 `java Game 0 1`
